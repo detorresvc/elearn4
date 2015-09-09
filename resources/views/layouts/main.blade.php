@@ -80,7 +80,7 @@
                     <ul class="nav navbar-nav navbar-right">
                         @if(Auth::guest())
                         <li class="dropdown">
-                            <a href="#">Register</a>
+                            <a href="{{ url('register') }}">Register</a>
                         </li>
                         @endif
                         @if(Auth::check())
